@@ -1,11 +1,11 @@
 dist: trusty
-language: node
+language: node_js
 cache:
   yarn: true
   directories:
     - node_modules
 node_js:
-  - "7"
+  - node
 jobs:
   fast_finish: true
 before_install:
