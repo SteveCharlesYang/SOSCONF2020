@@ -1,0 +1,2 @@
+# SOSCONF2020
+Web frontend for SOSCONF 2020
