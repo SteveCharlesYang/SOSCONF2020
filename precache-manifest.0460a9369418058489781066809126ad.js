@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a95b1959f4c47a52c56",
+    "revision": "c20d87f8a423e205a223",
     "url": "/css/app.1936dfa0.css"
   },
   {
@@ -68,6 +68,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/logo.7bc3142b.png"
   },
   {
+    "revision": "325a4a07d2dc9b387a582726b7cb4524",
+    "url": "/img/map_icon.325a4a07.png"
+  },
+  {
     "revision": "5c6521b9bb9cd0c10c3aff8ef1ed1163",
     "url": "/img/profile.jpg"
   },
@@ -80,12 +84,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/responsive-nav.gif"
   },
   {
-    "revision": "0ddc27ba09c3e0b34aae078db93c3662",
+    "revision": "4aaff724ea4f68af4909d82709e7f2ee",
     "url": "/index.html"
   },
   {
-    "revision": "4a95b1959f4c47a52c56",
-    "url": "/js/app.b1dc558e.js"
+    "revision": "c20d87f8a423e205a223",
+    "url": "/js/app.4ee85e48.js"
   },
   {
     "revision": "c140e46abb2a5278db0d",
