@@ -8,7 +8,7 @@
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto">
             <div class="brand">
-                <h2>Events</h2>
+                <h2>活动日程表</h2>
             </div>
           </div>
         </div>
@@ -23,8 +23,11 @@ export default {
 </script>
 <style lang="scss">
 .events-header {
-  height: 50vh;
+  height: 40vh;
   display: flex;
   align-items: center;
+  .container .row {
+    color: white;
+  }
 }
 </style>

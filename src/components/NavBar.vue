@@ -2,7 +2,7 @@
   <nav class="navbar navbar-color-on-scroll fixed-top navbar-expand-lg navbar-transparent" color-on-scroll="100" id="sectionsNav">
         <div class="container">
           <div class="navbar-translate">
-            <router-link to="/" class="navbar-brand"> SOSCONF 2020 </router-link>
+            <router-link to="/" class="navbar-brand"> SOSCONF.ZH 2020 </router-link>
             <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="sr-only">Toggle navigation</span>
               <span class="navbar-toggler-icon"></span>

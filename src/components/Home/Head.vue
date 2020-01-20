@@ -5,8 +5,8 @@
         <div class="col-md-8 ml-auto mr-auto">
           <div class="brand">
             <img src="@/assets/logo.png">
-            <h2>SOSCONF 2020 / 学生开源年会</h2>
-            <h3>这里是介绍。太短了不好看，再稍微长一点吧嗯应该差不多了。</h3>
+            <h2>SOSCONF.ZH 2020 / 2020中文学生开源年会</h2>
+            <h3>2020 5.17-5.18，Chengdu</h3>
             <p>
               <button class="btn btn-info btn-round">关于年会</button>
               <button class="btn btn-success btn-round">立即报名</button>

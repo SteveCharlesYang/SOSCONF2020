@@ -21,6 +21,12 @@
           学生票
         </a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#reg-community" role="tab" data-toggle="tab">
+          <i class="material-icons">people</i>
+          合作社区
+        </a>
+      </li>
     </ul>
 </template>
 <script>
@@ -34,7 +40,7 @@ export default {
     color: #fff;
     &:active{
       color: #fff;
-      background-color: #a65fb3;
+      background-color: #a659b1;
     }
   }
 }
