@@ -21,7 +21,7 @@
                   data-toggle="tab"
                   role="tablist"
                   aria-expanded="true"
-                  v-on:click="changeview('timeGridDay',0)"
+                  v-on:click="changeview('listDay',0)"
                 >Day 0 / 第一天</a>
               </li>
               <li class="nav-item dropdown">
@@ -38,11 +38,11 @@
                     data-toggle="tab"
                     role="tablist"
                     aria-expanded="false"
-                    v-on:click="changeview('timeGridDay',1)"
+                    v-on:click="changeview('listDay',1)"
                   >主会场</a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item"
-                  v-on:click="changeview('timeGridDay',1,1)">分会场1</a>
+                  v-on:click="changeview('listDay',1,1)">分会场1</a>
                 </div>
               </li>
               <li class="nav-item">
@@ -51,7 +51,7 @@
                   data-toggle="tab"
                   role="tablist"
                   aria-expanded="false"
-                  v-on:click="changeview('timeGridDay',2)"
+                  v-on:click="changeview('listDay',2)"
                 >Day 2 / 第三天</a>
               </li>
             </ul>
