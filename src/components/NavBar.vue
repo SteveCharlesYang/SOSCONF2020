@@ -22,8 +22,17 @@
                   <i class="material-icons">dashboard</i> 分会场列表
                 </a>
                 <div class="dropdown-menu dropdown-with-icons">
-                  <router-link to="/sub/codes" class="nav-link">
-                    <i class="material-icons">code</i> 代码
+                  <router-link to="/sub/0" class="nav-link">
+                    <i class="material-icons">code</i> 分会场0
+                  </router-link>
+                  <router-link to="/sub/1" class="nav-link">
+                    <i class="material-icons">code</i> 分会场1
+                  </router-link>
+                  <router-link to="/sub/2" class="nav-link">
+                    <i class="material-icons">code</i> 分会场2
+                  </router-link>
+                  <router-link to="/sub/3" class="nav-link">
+                    <i class="material-icons">code</i> 分会场3
                   </router-link>
                 </div>
               </li>
@@ -53,18 +62,68 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="#" target="_blank" data-original-title="Github">
-                  <i class="fa fa-github"></i>
+                <a class="nav-link" rel="tooltip" title="QQ"
+                role="button"
+                data-placement="bottom"
+                data-original-title="QQ"
+                data-toggle="modal" data-target="#qqqrcode"
+                >
+                  <i class="fa fa-qq"></i>
                 </a>
               </li>
             </ul>
+          </div>
+        </div>
+        <div class="modal fade" id="qqqrcode" tabindex="-1" role="dialog" aria-labelledby="QQ qrcode" aria-hidden="true">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">扫描二维码加入QQ群</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body qrcode">
+                <img :src="qqqrcode">
+              </div>
+            </div>
           </div>
         </div>
       </nav>
 </template>
 
 <script>
+import qqqrcode from '@/assets/qqqrcode.jpg'
+
 export default {
-  name: 'NavBar'
+  name: 'NavBar',
+  data () {
+    return {
+      qqqrcode: qqqrcode
+    }
+  }
 }
 </script>
+<style lang="scss">
+#qqqrcode {
+  z-index: 1090;
+}
+
+.modal-backdrop {
+  z-index: 1000;
+}
+
+.qrcode {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+  img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
