@@ -2,18 +2,20 @@
   <div class="sub">
     <Head/>
     <div class="main main-raised">
-      emmm
+      <SubInfo/>
     </div>
   </div>
 </template>
 
 <script>
 import Head from '@/components/Sub/Head.vue'
+import SubInfo from '@/components/Sub/SubInfo.vue'
 
 export default {
   name: 'sub',
   components: {
-    Head
+    Head,
+    SubInfo
   }
 }
 </script>

@@ -1,9 +1,13 @@
 <template>
   <div class="section section-basic">
     <div class="container">
+      <hr/>
       <h3 class="title">举办信息</h3>
       <div class="row">
         <div class="col-md-6 ml-auto mr-auto icon-list">
+          <div class="tim-typo">
+            <p><span class="tim-note">主会场</span><i class="material-icons">home</i> 中国成都市 · 电子科技大学（清水河校区）</p>
+          </div>
           <div class="tim-typo">
             <p><span class="tim-note">举办时间</span><i class="material-icons">access_time</i> 2020年5月16日至17日</p>
           </div>

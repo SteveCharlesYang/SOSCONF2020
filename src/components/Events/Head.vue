@@ -4,15 +4,6 @@
       data-parallax="true"
       style="background-image: url('./assets/img/bg2.jpg');"
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto">
-            <div class="brand">
-                <h2>活动日程表</h2>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 </template>
 <script>
