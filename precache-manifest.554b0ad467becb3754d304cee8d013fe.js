@@ -1,14 +1,22 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "01e814e333adab3cd687",
-    "url": "/css/app.16511c4c.css"
+    "revision": "30bde3b77c4266ad10c5",
+    "url": "/css/app.5f72ab64.css"
   },
   {
-    "revision": "3f45e79d1f21ab360cef",
-    "url": "/css/chunk-31f8bd26.67f08d2b.css"
+    "revision": "ac86ec47a137525d6987",
+    "url": "/css/chunk-10d71268.2e5f30fd.css"
   },
   {
-    "revision": "65810b429832ce213f2a",
+    "revision": "cdd8441a3e9a104271d6",
+    "url": "/css/chunk-2b9fed7d.67f08d2b.css"
+  },
+  {
+    "revision": "32172703d16f825f001a",
+    "url": "/css/chunk-7b61f0af.2e5f30fd.css"
+  },
+  {
+    "revision": "13067a5e4eba37a7c525",
     "url": "/css/chunk-dfc73350.fac2834a.css"
   },
   {
@@ -26,6 +34,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "67a192bcd9f409b01929f3cfb597f6f5",
     "url": "/data/events.json"
+  },
+  {
+    "revision": "bb6c2ef6c9aa029f009ae35832bf0bc8",
+    "url": "/img/Sichuan-University-Jiangan.bb6c2ef6.jpg"
+  },
+  {
+    "revision": "ec99ef88dbef12f1d086c21e90c4723c",
+    "url": "/img/Sichuan-University-Wangjiang.ec99ef88.jpeg"
+  },
+  {
+    "revision": "590c9a807b9d8ad2cc8aa63fd8021cab",
+    "url": "/img/UESTC-Qingshui.590c9a80.jpg"
   },
   {
     "revision": "73e8df21e23e78827c62b270a7a85628",
@@ -88,28 +108,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/responsive-nav.gif"
   },
   {
-    "revision": "b7904c33ee851d93a6072a68338b1ad5",
+    "revision": "11d7e0c8fdb4c8984df5c374c5f521ec",
     "url": "/index.html"
   },
   {
-    "revision": "01e814e333adab3cd687",
-    "url": "/js/app.af086868.js"
+    "revision": "30bde3b77c4266ad10c5",
+    "url": "/js/app.fa7df952.js"
   },
   {
-    "revision": "c140e46abb2a5278db0d",
-    "url": "/js/chunk-2d22c6c5.a39e2183.js"
+    "revision": "ac86ec47a137525d6987",
+    "url": "/js/chunk-10d71268.9734fdb9.js"
   },
   {
-    "revision": "e50d306c88d814f63b5f",
-    "url": "/js/chunk-2d22d746.35548de8.js"
+    "revision": "cdd8441a3e9a104271d6",
+    "url": "/js/chunk-2b9fed7d.addc76d2.js"
   },
   {
-    "revision": "3f45e79d1f21ab360cef",
-    "url": "/js/chunk-31f8bd26.f8c20e5e.js"
+    "revision": "32172703d16f825f001a",
+    "url": "/js/chunk-7b61f0af.ca73c789.js"
   },
   {
-    "revision": "65810b429832ce213f2a",
-    "url": "/js/chunk-dfc73350.990e871d.js"
+    "revision": "13067a5e4eba37a7c525",
+    "url": "/js/chunk-dfc73350.efdf6c6a.js"
   },
   {
     "revision": "682d2df7621fe4ab3c0b",
