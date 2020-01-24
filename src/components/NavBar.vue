@@ -12,16 +12,25 @@
           </div>
           <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <router-link to="/reg" class="nav-link">
-                      <i class="material-icons">done_all</i> 报名参加
-                    </router-link>
-                  </li>
+              <li class="nav-item">
+                <router-link to="/reg" class="nav-link">
+                  <i class="material-icons">done_all</i> 报名参加
+                </router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to="/Sub" class="nav-link">
+                  <i class="material-icons">dashboard</i> 会场列表
+                </router-link>
+              </li>
+              <!--
               <li class="dropdown nav-item">
                 <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                  <i class="material-icons">dashboard</i> 分会场列表
+                  <i class="material-icons">dashboard</i> 会场列表
                 </a>
                 <div class="dropdown-menu dropdown-with-icons">
+                  <router-link to="/sub/Main" class="nav-link">
+                    <i class="material-icons">code</i> 主会场
+                  </router-link>
                   <router-link to="/sub/0" class="nav-link">
                     <i class="material-icons">code</i> 分会场0
                   </router-link>
@@ -36,6 +45,7 @@
                   </router-link>
                 </div>
               </li>
+              -->
               <li class="nav-item">
                 <router-link to="/events" class="nav-link">
                   <i class="material-icons">event</i> 日程
@@ -78,7 +88,6 @@
           <div class="modal-dialog modal-sm">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title">扫描二维码加入QQ群</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
                   <span aria-hidden="true">&times;</span>
                 </button>
@@ -106,7 +115,7 @@ export default {
 </script>
 <style lang="scss">
 #qqqrcode {
-  z-index: 1090;
+  z-index: 1000;
 }
 
 .modal-backdrop {
