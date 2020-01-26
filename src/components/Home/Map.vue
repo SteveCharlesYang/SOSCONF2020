@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import MapIcons from '@/assets/map_icon.png'
+import MapIcons from '@/assets/img/map_icon.png'
 
 export default {
   name: 'Map',

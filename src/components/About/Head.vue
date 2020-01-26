@@ -1,8 +1,7 @@
 <template>
     <div
-      class="about-header header-filter clear-filter purple-filter"
-      data-parallax="true"
-      style="background-image: url('./assets/img/bg2.jpg');"
+      class="about-header header-filter clear-filter"
+      data-parallax="true">
     >
     </div>
 </template>

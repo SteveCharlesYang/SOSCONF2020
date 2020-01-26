@@ -5,14 +5,14 @@
             <small class="text-muted">Contributor</small>
         </h2>
         <h3 id="about-sponsor">
-            主办人
+            筹备委员会
             <small class="text-muted">Sponsor</small>
         </h3>
         <div class="row">
             <div class="card col-md-5 ml-auto mr-auto">
                 <div class="card-body" align="center">
                     <!-- 主办人照片/头像建议统一使用 128*128px 大小 -->
-                    <img src="../../assets/logo.png" alt="test" class="img-raised rounded-circle img-fluid">
+                    <img src="@/assets/img/logo.png" alt="test" class="img-raised rounded-circle img-fluid">
                     <h4 class="card-title">Special title treatment</h4>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#0" class="btn btn-primary">Go somewhere</a>
@@ -21,7 +21,7 @@
             <div class="card col-md-5 ml-auto mr-auto">
                 <div class="card-body" align="center">
                     <!-- 主办人照片/头像建议统一使用 128*128px 大小 -->
-                    <img src="../../assets/logo.png" alt="test" class="img-raised rounded-circle img-fluid">
+                    <img src="@/assets/img/logo.png" alt="test" class="img-raised rounded-circle img-fluid">
                     <h4 class="card-title">Special title treatment</h4>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#0" class="btn btn-primary">Go somewhere</a>
@@ -30,7 +30,7 @@
             <div class="card col-md-5 ml-auto mr-auto">
                 <div class="card-body" align="center">
                     <!-- 主办人照片/头像建议统一使用 128*128px 大小 -->
-                    <img src="../../assets/logo.png" alt="test" class="img-raised rounded-circle img-fluid">
+                    <img src="@/assets/img/logo.png" alt="test" class="img-raised rounded-circle img-fluid">
                     <h4 class="card-title">Special title treatment</h4>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#0" class="btn btn-primary">Go somewhere</a>
@@ -39,7 +39,7 @@
             <div class="card col-md-5 ml-auto mr-auto">
                 <div class="card-body" align="center">
                     <!-- 主办人照片/头像建议统一使用 128*128px 大小 -->
-                    <img src="../../assets/logo.png" alt="test" class="img-raised rounded-circle img-fluid">
+                    <img src="@/assets/img/logo.png" alt="test" class="img-raised rounded-circle img-fluid">
                     <h4 class="card-title">Special title treatment</h4>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#0" class="btn btn-primary">Go somewhere</a>
@@ -54,7 +54,7 @@
             <div class="card col-md-3 ml-auto mr-auto">
                 <div class="card-body" align="center">
                     <!-- 演讲者照片/头像建议统一使用 96*96px 大小 -->
-                    <img src="../../assets/map_icon.png" alt="test" class="img-raised rounded-circle img-fluid">
+                    <img src="@/assets/img/logo.png" alt="test" class="img-raised rounded-circle img-fluid">
                     <h4 class="card-title">
                         Name here
                         <br/><small class="text-muted">电子科技大学</small>
@@ -65,7 +65,7 @@
             <div class="card col-md-3 ml-auto mr-auto">
                 <div class="card-body" align="center">
                     <!-- 演讲者照片/头像建议统一使用 96*96px 大小 -->
-                    <img src="../../assets/map_icon.png" alt="test" class="img-raised rounded-circle img-fluid">
+                    <img src="@/assets/img/logo.png" alt="test" class="img-raised rounded-circle img-fluid">
                     <h4 class="card-title">
                         Name here
                         <br/><small class="text-muted">四川大学</small>
@@ -76,7 +76,7 @@
             <div class="card col-md-3 ml-auto mr-auto">
                 <div class="card-body" align="center">
                     <!-- 演讲者照片/头像建议统一使用 96*96px 大小 -->
-                    <img src="../../assets/map_icon.png" alt="test" class="img-raised rounded-circle img-fluid">
+                    <img src="@/assets/img/logo.png" alt="test" class="img-raised rounded-circle img-fluid">
                     <h4 class="card-title">
                         Name here
                         <br/><small class="text-muted">华为 · 高级研究员</small>
@@ -89,7 +89,7 @@
             <div class="card col-md-3 ml-auto mr-auto">
                 <div class="card-body" align="center">
                     <!-- 演讲者照片/头像建议统一使用 96*96px 大小 -->
-                    <img src="../../assets/map_icon.png" alt="test" class="img-raised rounded-circle img-fluid">
+                    <img src="@/assets/img/logo.png" alt="test" class="img-raised rounded-circle img-fluid">
                     <h4 class="card-title">
                         Name here
                         <br/><small class="text-muted">电子科技大学</small>
@@ -100,7 +100,7 @@
             <div class="card col-md-3 ml-auto mr-auto">
                 <div class="card-body" align="center">
                     <!-- 演讲者照片/头像建议统一使用 96*96px 大小 -->
-                    <img src="../../assets/map_icon.png" alt="test" class="img-raised rounded-circle img-fluid">
+                    <img src="@/assets/img/logo.png" alt="test" class="img-raised rounded-circle img-fluid">
                     <h4 class="card-title">
                         Name here
                         <br/><small class="text-muted">电子科技大学</small>
@@ -129,7 +129,7 @@
             <div class="card col-md-3 ml-auto mr-auto">
                 <div class="card-body" align="center">
                     <!-- 技术支持者照片/头像建议统一使用 96*96px 大小 -->
-                    <img src="../../assets/map_icon.png" alt="test" class="img-raised rounded-circle img-fluid">
+                    <img src="@/assets/img/logo.png" alt="test" class="img-raised rounded-circle img-fluid">
                     <h4 class="card-title">Special title treatment</h4>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#0" class="btn btn-primary">Go somewhere</a>
@@ -138,7 +138,7 @@
             <div class="card col-md-3 ml-auto mr-auto">
                 <div class="card-body" align="center">
                     <!-- 技术支持者照片/头像建议统一使用 96*96px 大小 -->
-                    <img src="../../assets/map_icon.png" alt="test" class="img-raised rounded-circle img-fluid">
+                    <img src="@/assets/img/logo.png" alt="test" class="img-raised rounded-circle img-fluid">
                     <h4 class="card-title">Special title treatment</h4>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#0" class="btn btn-primary">Go somewhere</a>
@@ -147,7 +147,7 @@
             <div class="card col-md-3 ml-auto mr-auto">
                 <div class="card-body" align="center">
                     <!-- 技术支持者照片/头像建议统一使用 96*96px 大小 -->
-                    <img src="../../assets/map_icon.png" alt="test" class="img-raised rounded-circle img-fluid">
+                    <img src="@/assets/img/logo.png" alt="test" class="img-raised rounded-circle img-fluid">
                     <h4 class="card-title">Special title treatment</h4>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#0" class="btn btn-primary">Go somewhere</a>
@@ -158,7 +158,7 @@
             <div class="card col-md-3 ml-auto mr-auto">
                 <div class="card-body" align="center">
                     <!-- 技术支持者照片/头像建议统一使用 96*96px 大小 -->
-                    <img src="../../assets/map_icon.png" alt="test" class="img-raised rounded-circle img-fluid">
+                    <img src="@/assets/img/logo.png" alt="test" class="img-raised rounded-circle img-fluid">
                     <h4 class="card-title">Special title treatment</h4>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#0" class="btn btn-primary">Go somewhere</a>
@@ -167,7 +167,7 @@
             <div class="card col-md-3 ml-auto mr-auto">
                 <div class="card-body" align="center">
                     <!-- 技术支持者照片/头像建议统一使用 96*96px 大小 -->
-                    <img src="../../assets/map_icon.png" alt="test" class="img-raised rounded-circle img-fluid">
+                    <img src="@/assets/img/logo.png" alt="test" class="img-raised rounded-circle img-fluid">
                     <h4 class="card-title">Special title treatment</h4>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#0" class="btn btn-primary">Go somewhere</a>

@@ -57,17 +57,12 @@
                 </router-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="#" target="_blank" data-original-title="WeChat">
-                  <i class="fa fa-wechat"></i>
-                </a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="#" target="_blank" data-original-title="Weibo">
                   <i class="fa fa-weibo"></i>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="#" target="_blank" data-original-title="Telegram">
+                <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://t.me/joinchat/LgGQ2RZQrW7geSaaJicUgw" target="_blank" data-original-title="Telegram">
                   <i class="fa fa-telegram"></i>
                 </a>
               </li>
@@ -102,7 +97,7 @@
 </template>
 
 <script>
-import qqqrcode from '@/assets/qqqrcode.jpg'
+import qqqrcode from '@/assets/img/qqqrcode.jpg'
 
 export default {
   name: 'NavBar',
@@ -114,6 +109,13 @@ export default {
 }
 </script>
 <style lang="scss">
+.navbar-transparent {
+  div{
+    color: #3C4858;
+  }
+  background-color: #ffffffcc !important;
+}
+
 #qqqrcode {
   z-index: 1000;
 }

@@ -34,13 +34,15 @@ export default {
   name: 'RoleSelection'
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 #RoleSelection .nav-item {
   .nav-link{
     color: #fff;
     &:active{
-      color: #fff;
-      background-color: #a659b1;
+      background-color: #3C4858;
+    }
+    &.active {
+      background-color: #3C4858;
     }
   }
 }

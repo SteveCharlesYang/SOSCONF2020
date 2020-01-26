@@ -43,16 +43,11 @@
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item"
                   v-on:click="changeview('listDay',1,1)">分会场1</a>
+                  <a class="dropdown-item"
+                  v-on:click="changeview('listDay',1,2)">分会场2</a>
+                  <a class="dropdown-item"
+                  v-on:click="changeview('listDay',1,3)">分会场3</a>
                 </div>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  data-toggle="tab"
-                  role="tablist"
-                  aria-expanded="false"
-                  v-on:click="changeview('listDay',2)"
-                >Day 2 / 第三天</a>
               </li>
             </ul>
           </div>
@@ -88,8 +83,12 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 @import '~@fullcalendar/daygrid/main.css';
 @import '~@fullcalendar/timegrid/main.css';
 @import '~@fullcalendar/list/main.css';
+
+.card-header-primary {
+  background: linear-gradient(60deg, #689BAD, #589BAD);
+}
 </style>

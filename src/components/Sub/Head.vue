@@ -1,16 +1,14 @@
 <template>
   <div
-      class="about-header header-filter clear-filter purple-filter"
-      data-parallax="true"
-      style="background-image: url('./assets/img/bg2.jpg');"
-    >
-    </div>
+    class="about-header header-filter clear-filter"
+    data-parallax="true"
+  ></div>
 </template>
 
 <script>
 export default {
-  name: 'Head'
-}
+  name: "Head"
+};
 </script>
 
 <style lang="scss">

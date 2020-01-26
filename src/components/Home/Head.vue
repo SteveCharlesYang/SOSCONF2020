@@ -1,11 +1,11 @@
 <template>
-  <div class="page-header header-filter clear-filter purple-filter" data-parallax="true" style="background-image: url('./assets/img/bg2.jpg');">
+  <div class="page-header header-filter clear-filter" data-parallax="true">
     <div class="container">
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto">
           <div class="brand">
-            <img src="@/assets/logo.png">
-            <h2>SOSCONF.ZH 2020 / 2020中文学生开源年会</h2>
+            <img src="@/assets/img/logo.png">
+            <h2><b>SOSCONF.ZH 2020 / 2020中文学生开源年会</b></h2>
             <h3>2020 5.17-5.18，Chengdu</h3>
             <p>
               <button class="btn btn-info btn-round">关于年会</button>
@@ -24,11 +24,14 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.brand p {
-  margin-top: 10px;
-}
-.brand p button {
-  margin-inline-end: 10px;
+<style lang="scss" scoped>
+.brand {
+  color: #3C4858;
+  p {
+    margin-top: 10px;
+    button {
+      margin-inline-end: 10px;
+    }
+  }
 }
 </style>

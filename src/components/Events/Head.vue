@@ -1,8 +1,7 @@
 <template>
     <div
-      class="events-header header-filter clear-filter purple-filter"
+      class="events-header header-filter clear-filter"
       data-parallax="true"
-      style="background-image: url('./assets/img/bg2.jpg');"
     >
     </div>
 </template>
@@ -12,7 +11,7 @@ export default {
   name: 'Head'
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .events-header {
   height: 40vh;
   display: flex;
