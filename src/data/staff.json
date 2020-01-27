@@ -1,4 +1,13 @@
 {
+    "speaker": [
+        {
+            "name": "test",
+            "title": "Electron Sci-tech Univ.",
+            "desc": "",
+            "image": "",
+            "link": "test"
+        }
+    ],
     "media": [
         {
             "name": "朱芮捷",
@@ -45,7 +54,7 @@
             "link": ""
         },
         {
-            "name": "zqy？",
+            "name": "张晴宇",
             "desc": "",
             "image": "",
             "link": ""

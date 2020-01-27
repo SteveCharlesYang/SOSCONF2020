@@ -79,24 +79,25 @@
               rel="tooltip"
               title
               data-placement="bottom"
-              href="#"
+              href="https://t.me/joinchat/LgGQ2RZQrW7geSaaJicUgw"
               target="_blank"
-              data-original-title="Weibo"
+              data-original-title="Telegram"
             >
-              <i class="fa fa-weibo"></i>
+              <i class="fa fa-telegram"></i>
             </a>
           </li>
           <li class="nav-item">
             <a
               class="nav-link"
               rel="tooltip"
-              title
+              title="Weibo"
+              role="button"
               data-placement="bottom"
-              href="https://t.me/joinchat/LgGQ2RZQrW7geSaaJicUgw"
-              target="_blank"
-              data-original-title="Telegram"
+              data-original-title="Weibo"
+              data-toggle="modal"
+              data-target="#weiboqrcode"
             >
-              <i class="fa fa-telegram"></i>
+              <i class="fa fa-weibo"></i>
             </a>
           </li>
           <li class="nav-item">
@@ -116,45 +117,12 @@
         </ul>
       </div>
     </div>
-    <div
-      class="modal fade"
-      id="qqqrcode"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="QQ qrcode"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="关闭"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body qrcode">
-            <img :src="qqqrcode" />
-          </div>
-        </div>
-      </div>
-    </div>
   </nav>
 </template>
 
 <script>
-import qqqrcode from "@/assets/img/qqqrcode.jpg";
-
 export default {
-  name: "NavBar",
-  data() {
-    return {
-      qqqrcode: qqqrcode
-    };
-  }
+  name: "NavBar"
 };
 </script>
 <style lang="scss">

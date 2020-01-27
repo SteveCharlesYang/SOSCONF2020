@@ -39,7 +39,7 @@ export default {
 }
 
 .role-card {
-  margin-top: 200px;
+  margin-top: 150px;
   margin-bottom: 100px;
   .card-header {
     width: fit-content;

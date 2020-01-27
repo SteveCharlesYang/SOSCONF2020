@@ -4,14 +4,14 @@
       <nav class="float-left">
         <ul>
           <li>
-            <a href="#">
+            <router-link to="/coop" class="nav-link">
               参与合作
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="#">
+            <router-link to="/about" class="nav-link">
               联系我们
-            </a>
+            </router-link>
           </li>
         </ul>
       </nav>

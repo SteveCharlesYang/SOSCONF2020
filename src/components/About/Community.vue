@@ -86,3 +86,8 @@ export default {
   name: "Community"
 };
 </script>
+<style lang="scss" scoped>
+.btn-primary {
+  display: none;
+}
+</style>

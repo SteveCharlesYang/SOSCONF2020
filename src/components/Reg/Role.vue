@@ -6,7 +6,7 @@
           <h3>招募演讲者</h3>
           <p>
             我们希望学生能积极交流，让学生站上舞台，展示诞生在实验室里的创想，分享蕴含在编码中的激情，畅聊属于开源理念的未来!<br />
-            了解演讲、闪电演讲、以及workshop报名详情请点击下方按钮“报名成为演讲者”<br />
+            了解演讲、闪电演讲、以及Workshop报名详情请点击下方按钮“报名成为演讲者”<br />
             报名截止时间 4月25日
           </p>
           <button
@@ -54,7 +54,7 @@
           </p>
           <button
             class="btn btn-primary btn-round"
-            onclick="window.location.href='https://www.bagevent.com/event/registerTicket/6348596'"
+            onclick="window.location.href='https://www.bagevent.com/event/registerTicket/6348545'"
           >
             报名加入合作社区
           </button>

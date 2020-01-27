@@ -13,7 +13,7 @@ export default {
 
 <style lang="scss">
 .cooperation-header {
-  height: 40vh;
+  height: 150px;
   display: flex;
   align-items: center;
   .container .row {
