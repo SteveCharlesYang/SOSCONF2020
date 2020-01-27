@@ -1,22 +1,25 @@
 <template>
   <div class="events">
-    <Head/>
+    <Head />
     <div class="main main-raised">
-      <EventsList/>
+      <EventsList />
     </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import EventsList from '@/components/Events/EventsList.vue'
-import Head from '@/components/Events/Head.vue'
+import EventsList from "@/components/Events/EventsList.vue";
+import Head from "@/components/Events/Head.vue";
 
 export default {
-  name: 'events',
+  name: "events",
   components: {
     Head,
     EventsList
+  },
+  beforeCreate: function() {
+    document.body.className = "body-dark";
   }
-}
+};
 </script>

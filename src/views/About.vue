@@ -1,22 +1,25 @@
 <template>
   <div class="about">
-    <Head/>
+    <Head />
     <div class="main main-raised">
-      <AboutSelection/>
+      <AboutSelection />
     </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Head from '@/components/About/Head.vue'
-import AboutSelection from '@/components/About/AboutSelection.vue'
+import Head from "@/components/About/Head.vue";
+import AboutSelection from "@/components/About/AboutSelection.vue";
 
 export default {
-  name: 'about',
+  name: "about",
   components: {
     Head,
     AboutSelection
+  },
+  beforeCreate: function() {
+    document.body.className = "body-dark";
   }
-}
+};
 </script>

@@ -1,15 +1,13 @@
 <template>
-    <div
-      class="about-header header-filter clear-filter"
-      data-parallax="true">
+  <div class="about-header header-filter clear-filter" data-parallax="true">
     >
-    </div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'Head'
-}
+  name: "Head"
+};
 </script>
 
 <style lang="scss">

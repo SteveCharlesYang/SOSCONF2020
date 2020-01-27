@@ -1,15 +1,13 @@
 <template>
-    <div
-      class="events-header header-filter clear-filter"
-      data-parallax="true"
-    >
-    </div>
+  <div
+    class="events-header header-filter clear-filter"
+    data-parallax="true"
+  ></div>
 </template>
 <script>
-
 export default {
-  name: 'Head'
-}
+  name: "Head"
+};
 </script>
 <style lang="scss" scoped>
 .events-header {

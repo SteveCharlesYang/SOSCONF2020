@@ -1,32 +1,32 @@
 <template>
   <div id="app">
-    <NavBar/>
+    <NavBar />
     <transition name="slide-fade">
-      <router-view/>
+      <router-view />
     </transition>
-    <Foot/>
+    <Foot />
   </div>
 </template>
 
 <script>
-import NavBar from '@/components/NavBar.vue'
-import Foot from '@/components/Foot.vue'
+import NavBar from "@/components/NavBar.vue";
+import Foot from "@/components/Foot.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     NavBar,
     Foot
   }
-}
+};
 </script>
 
 <style lang="scss">
 .slide-fade-enter-active {
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 .slide-fade-leave-active {
-  transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
 }
 .slide-fade-enter, .slide-fade-leave-to
 /* .slide-fade-leave-active for below version 2.1.8 */ {

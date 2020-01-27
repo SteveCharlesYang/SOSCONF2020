@@ -23,7 +23,7 @@
             活动已经进入了紧张的筹备中，我们需要广大社区朋友们的支援。<br />
             如果你对SOSCON感兴趣，那么以志工的身份参与到会议中一定会给你带来意义非凡的活动体验。
           </p>
-          <button 
+          <button
             class="btn btn-primary btn-round"
             onclick="window.location.href='https://www.bagevent.com/event/registerTicket/6348596'"
           >
@@ -65,6 +65,12 @@
 </template>
 <script>
 export default {
-  name: 'Role'
-}
+  name: "Role"
+};
 </script>
+<style lang="scss" scoped>
+.card-header {
+  width: fit-content;
+  align-self: center;
+}
+</style>

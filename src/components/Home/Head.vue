@@ -4,12 +4,18 @@
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto">
           <div class="brand">
-            <img src="@/assets/img/logo.png">
-            <h2><b>SOSCONF.ZH 2020 / 2020中文学生开源年会</b></h2>
+            <img src="@/assets/img/logo.png" />
+            <h2>
+              <b>SOSCONF.ZH 2020 / 2020中文学生开源年会</b>
+            </h2>
             <h3>2020 5.17-5.18，Chengdu</h3>
             <p>
-              <button class="btn btn-info btn-round">关于年会</button>
-              <button class="btn btn-success btn-round">立即报名</button>
+              <button class="btn btn-info btn-round" v-scroll-to="'#title'">
+                关于年会
+              </button>
+              <router-link to="/reg" class="btn btn-success btn-round">
+                立即报名
+              </router-link>
             </p>
           </div>
         </div>
@@ -20,13 +26,13 @@
 
 <script>
 export default {
-  name: 'Head'
-}
+  name: "Head"
+};
 </script>
 
 <style lang="scss" scoped>
 .brand {
-  color: #3C4858;
+  color: #3c4858;
   p {
     margin-top: 10px;
     button {

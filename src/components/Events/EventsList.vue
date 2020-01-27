@@ -13,7 +13,8 @@
                   role="tablist"
                   aria-expanded="true"
                   v-on:click="changeview('listWeek')"
-                >Overview</a>
+                  >Overview</a
+                >
               </li>
               <li class="nav-item">
                 <a
@@ -21,8 +22,9 @@
                   data-toggle="tab"
                   role="tablist"
                   aria-expanded="true"
-                  v-on:click="changeview('listDay',0)"
-                >Day 0 / 第一天</a>
+                  v-on:click="changeview('listDay', 0)"
+                  >Day 0 / 第一天</a
+                >
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -31,22 +33,33 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                >Day 1 / 第二天</a>
+                  >Day 1 / 第二天</a
+                >
                 <div class="dropdown-menu">
                   <a
                     class="dropdown-item"
                     data-toggle="tab"
                     role="tablist"
                     aria-expanded="false"
-                    v-on:click="changeview('listDay',1)"
-                  >主会场</a>
+                    v-on:click="changeview('listDay', 1)"
+                    >主会场</a
+                  >
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item"
-                  v-on:click="changeview('listDay',1,1)">分会场1</a>
-                  <a class="dropdown-item"
-                  v-on:click="changeview('listDay',1,2)">分会场2</a>
-                  <a class="dropdown-item"
-                  v-on:click="changeview('listDay',1,3)">分会场3</a>
+                  <a
+                    class="dropdown-item"
+                    v-on:click="changeview('listDay', 1, 1)"
+                    >分会场1</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    v-on:click="changeview('listDay', 1, 2)"
+                    >分会场2</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    v-on:click="changeview('listDay', 1, 3)"
+                    >分会场3</a
+                  >
                 </div>
               </li>
             </ul>
@@ -56,9 +69,7 @@
       <div class="card-body">
         <div class="tab-content text-center">
           <div class="tab-pane active" id="overview" aria-expanded="false">
-            <CalendarComponent
-              ref="CalendarComponent"
-            />
+            <CalendarComponent ref="CalendarComponent" />
           </div>
         </div>
       </div>
@@ -67,28 +78,28 @@
 </template>
 
 <script>
-import CalendarComponent from '@/components/Generic/CalendarComponent.vue'
+import CalendarComponent from "@/components/Generic/CalendarComponent.vue";
 
 export default {
-  name: 'EventsList',
+  name: "EventsList",
   components: {
     CalendarComponent
   },
   methods: {
-    changeview: function (view, day = 0, sub = 0) {
-      let calendarApi = this.$refs.CalendarComponent.$refs.main.getApi()
-      calendarApi.gotoDate('2020-05-' + (16 + day))
-      calendarApi.changeView(view)
+    changeview: function(view, day = 0, sub = 0) {
+      let calendarApi = this.$refs.CalendarComponent.$refs.main.getApi();
+      calendarApi.gotoDate("2020-05-" + (16 + day));
+      calendarApi.changeView(view);
     }
   }
-}
+};
 </script>
 <style lang="scss" scoped>
-@import '~@fullcalendar/daygrid/main.css';
-@import '~@fullcalendar/timegrid/main.css';
-@import '~@fullcalendar/list/main.css';
+@import "~@fullcalendar/daygrid/main.css";
+@import "~@fullcalendar/timegrid/main.css";
+@import "~@fullcalendar/list/main.css";
 
 .card-header-primary {
-  background: linear-gradient(60deg, #689BAD, #589BAD);
+  background: linear-gradient(60deg, #689bad, #589bad);
 }
 </style>

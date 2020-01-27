@@ -1,29 +1,29 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Vue from "vue";
+import VueRouter from "vue-router";
+import Home from "../views/Home.vue";
 
-import VueLayers from 'vuelayers'
-import 'vuelayers/lib/style.css' // needs css-loader
+import VueLayers from "vuelayers";
+import "vuelayers/lib/style.css"; // needs css-loader
 
-Vue.use(VueLayers)
+Vue.use(VueLayers);
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/',
-    name: 'home',
+    path: "/",
+    name: "home",
     component: Home
   },
   {
-    path: '/reg',
-    name: 'reg',
-    component: () => import('../views/Registration.vue')
+    path: "/reg",
+    name: "reg",
+    component: () => import("../views/Registration.vue")
   },
   {
-    path: '/sub',
-    name: 'sub',
-    component: () => import('../views/Sub.vue')
+    path: "/sub",
+    name: "sub",
+    component: () => import("../views/Sub.vue")
   },
   /*
   {
@@ -33,21 +33,21 @@ const routes = [
   },
   */
   {
-    path: '/events',
-    name: 'events',
-    component: () => import('../views/Events.vue')
+    path: "/events",
+    name: "events",
+    component: () => import("../views/Events.vue")
   },
   {
-    path: '/about',
-    name: 'about',
-    component: () => import('../views/About.vue')
+    path: "/about",
+    name: "about",
+    component: () => import("../views/About.vue")
   }
-]
+];
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: "history",
   base: process.env.BASE_URL,
   routes
-})
+});
 
-export default router
+export default router;

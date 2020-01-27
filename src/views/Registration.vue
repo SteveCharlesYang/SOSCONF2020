@@ -1,10 +1,6 @@
 <template>
   <div class="reg">
-    <div
-      class="reg-header header-filter clear-filter"
-      data-parallax="true"
-      v-bind:style="{ backgroundImage: 'url(@/assets/img/bg.jpg)' }"
-    >
+    <div class="reg-header header-filter clear-filter" data-parallax="true">
       >
       <div class="container">
         <div class="card card-nav-tabs role-card">
@@ -29,6 +25,9 @@ export default {
   components: {
     Role,
     RoleSelection
+  },
+  beforeCreate: function() {
+    document.body.className = "body-dark";
   }
 };
 </script>
@@ -38,9 +37,7 @@ export default {
   display: flex;
   align-items: center;
 }
-#RoleSelection {
-  justify-content: center;
-}
+
 .role-card {
   margin-top: 200px;
   margin-bottom: 100px;

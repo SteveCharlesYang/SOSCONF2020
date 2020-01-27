@@ -1,21 +1,24 @@
 <template>
   <div class="sub">
-    <Head/>
+    <Head />
     <div class="main main-raised">
-      <SubInfo/>
+      <SubInfo />
     </div>
   </div>
 </template>
 
 <script>
-import Head from '@/components/Sub/Head.vue'
-import SubInfo from '@/components/Sub/SubInfo.vue'
+import Head from "@/components/Sub/Head.vue";
+import SubInfo from "@/components/Sub/SubInfo.vue";
 
 export default {
-  name: 'sub',
+  name: "sub",
   components: {
     Head,
     SubInfo
+  },
+  beforeCreate: function() {
+    document.body.className = "body-dark";
   }
-}
+};
 </script>
