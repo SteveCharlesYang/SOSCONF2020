@@ -1,6 +1,5 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
 
 import VueLayers from "vuelayers";
 import "vuelayers/lib/style.css"; // needs css-loader
@@ -13,7 +12,7 @@ const routes = [
   {
     path: "/",
     name: "home",
-    component: Home
+    component: () => import("../views/Home.vue")
   },
   {
     path: "/reg",
@@ -21,10 +20,15 @@ const routes = [
     component: () => import("../views/Registration.vue")
   },
   {
-    path: "/sub",
-    name: "sub",
-    component: () => import("../views/Sub.vue")
+    path: "/coop",
+    name: "coop",
+    component: () => import("../views/Cooperation.vue")
   },
+  // {
+  //   path: "/sub",
+  //   name: "sub",
+  //   component: () => import("../views/Sub.vue")
+  // },
   /*
   {
     path: '/sub/:sub',

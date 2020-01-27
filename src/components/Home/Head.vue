@@ -10,10 +10,10 @@
             </h2>
             <h3>2020 5.17-5.18，Chengdu</h3>
             <p>
-              <button class="btn btn-info btn-round" v-scroll-to="'#title'">
+              <button class="btn btn-info btn-lg" v-scroll-to="'#title'">
                 关于年会
               </button>
-              <router-link to="/reg" class="btn btn-success btn-round">
+              <router-link to="/reg" class="btn btn-success btn-lg">
                 立即报名
               </router-link>
             </p>

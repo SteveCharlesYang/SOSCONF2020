@@ -30,10 +30,15 @@
             </router-link>
           </li>
           <li class="nav-item">
+            <router-link to="/coop" class="nav-link">
+              <i class="material-icons">contacts</i> 联系合作
+            </router-link>
+          </li>
+          <!-- <li class="nav-item">
             <router-link to="/Sub" class="nav-link">
               <i class="material-icons">dashboard</i> 会场列表
             </router-link>
-          </li>
+          </li> -->
           <!--
               <li class="dropdown nav-item">
                 <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
@@ -122,7 +127,12 @@
       <div class="modal-dialog modal-sm">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="关闭"
+            >
               <span aria-hidden="true">&times;</span>
             </button>
           </div>

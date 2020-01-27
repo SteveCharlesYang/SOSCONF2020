@@ -3,26 +3,32 @@
     z-index: 200;
 }
 
-.home {
-    background-image: url('~@/assets/img/bg.png');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
+// .home {
+//     background-image: url('~@/assets/img/bg.png');
+//     background-attachment: fixed;
+//     background-repeat: no-repeat;
+// }
 
-.reg, .sub, .events, .about {
-    background-image: url('~@/assets/img/bg2.png');
-    background-attachment: fixed;
-    background-repeat: no-repeat;  
-}
+// .reg, .sub, .events, .about {
+//     background-image: url('~@/assets/img/bg2.png');
+//     background-attachment: fixed;
+//     background-repeat: no-repeat;  
+// }
 
 .body-light {
     #app .navbar-transparent .container .navbar-collapse{
         color: #3C4858 !important;
     }
+    background-image: url('~@/assets/img/bg.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .body-dark {
     #app .navbar-transparent .container .navbar-collapse{
         color: white !important;
     }
+    background-image: url('~@/assets/img/bg2.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
 }
