@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.97f7e96cbb2dcec08bad06eba651d857.js"
+  "/precache-manifest.e9793cb8b22057fccc51f2bf3276aed2.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "sosconf"});
